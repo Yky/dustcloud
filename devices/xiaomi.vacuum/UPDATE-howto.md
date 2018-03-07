@@ -38,7 +38,7 @@ Do not flash Gen2 firmware to Gen1, and vice versa!
 ### Instructions on Mac OS
 1. Install [homebrew package manager](https://brew.sh/)
 1. Install python3: `brew install python3`
-1. Install a python3 package manager like [pipenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/): `python3 pip install --user pipenv`
+1. Install a python3 package manager like [pipenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/): `python3 -m pip install --user pipenv`
 	 * You need to add the python3 installation to your system's PATH like it is recommended on the pipenv page
 	 * e.g. `export PATH=$PATH:/Users/<yourUsername>/Library/Python/3.6/bin`
 	 * set correct locales for pipenv, e.g. ```export LC_ALL=en_US.UTF-8
